@@ -41,7 +41,8 @@
         <visual>
             <origin xyz="0 0 0" rpy="0 0 0" />
             <geometry>
-                <box size="${base_x_size} ${base_y_size} ${base_z_size}"/>
+                <!--<box size="${base_x_size} ${base_y_size} ${base_z_size}"/>-->
+                <mesh filename="package://scout_gazebo/meshes/base_link.dae" />
             </geometry>
         </visual>
         <collision>
